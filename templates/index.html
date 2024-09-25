@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enviar WhatsApp</title>
+</head>
+<body>
+    <h1>Enviar Resultado por WhatsApp</h1>
+    <form action="/send_whatsapp" method="post" enctype="multipart/form-data">
+        <label for="number">Número de WhatsApp:</label>
+        <input type="text" id="number" name="number" required><br><br>
+        <label for="file">Selecciona el archivo PDF:</label>
+        <input type="file" id="file" name="file" accept=".pdf" required><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
